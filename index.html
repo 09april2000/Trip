@@ -1,0 +1,270 @@
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+table tr,table td,table th{
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+}
+table th{
+  background: #eee;
+}
+table{
+  margin-top:50px;
+  margin-bottom: 50px;
+  width:100%;
+}
+</style>
+</head>
+<body>
+<div class="table-responsive container">
+  <table>
+    <tr>
+      <th>Date</th>
+      <th>Departure</th>
+      <th>Arrival</th>
+      <th>Mode</th>
+      <th>Details</td>
+      <th>Cost</th>
+    </tr>
+    <tr>
+      <td>Friday (Day - 0)</td>
+      <td>Burhanpur (01:00 PM)</td>
+      <td>Indore (06:00 PM)</td>
+      <td>Bus</td>
+      <td>Burhanpur to Indore</td>
+      <td>400</td>
+    </tr>
+    <tr>
+      <td>Saturday (Day - 1)</td>
+      <td>Indore (06.00 AM)</td>
+      <td>Jaipur (04:35 PM)</td>
+      <td>Train</td>
+      <td>INDB - JP (<b>Train No. 12465</b>)</td>
+      <td>200</td>
+    </tr>
+    <tr>
+      <td>Saturday (Day - 1)</td>
+      <td>Train 12465</td>
+      <td>Train 12645</td>
+      <td>Train</td>
+      <td>Breakfast in Train</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>Saturday (Day - 1)</td>
+      <td>Jaipur (5:00 PM)</td>
+      <td>Ringus (07:30 PM)</td>
+      <td>Bus</td>
+      <td>Jaipur to Ringus</td>
+      <td>120</td>
+    </tr>
+    <tr>
+      <td>Saturday (Day - 1)</td>
+      <td>Ringus (08:00 PM)</td>
+      <td>Khatu (09:00 PM)</td>
+      <td>Taxi</td>
+      <td>Ringus to Khatu Shyam</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Saturday (Day - 1)</td>
+      <td>Khatu</td>
+      <td>Khatu</td>
+      <td>&nbsp;</td>
+      <td>Stay overnight</td>
+      <td>200</td>
+    </tr>
+    <tr>
+      <td>Saturday (Day - 1)</td>
+      <td>Khatu</td>
+      <td>Khatu</td>
+      <td>&nbsp;</td>
+      <td>Dinner at hotel</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>Sunday (Day - 2)</td>
+      <td>Khatu (04:00 AM)</td>
+      <td>Khatu (04:00 AM)</td>
+      <td>&nbsp;</td>
+      <td>Wake up for darshan</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Sunday (Day - 2)</td>
+      <td>Khatu (05:00 AM)</td>
+      <td>Khatu (06:30 AM)</td>
+      <td>&nbsp;</td>
+      <td>First darshan at Khatu Shyam</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Sunday (Day - 2)</td>
+      <td>Khatu (06:30 AM)</td>
+      <td>Khatu (08:00 AM)</td>
+      <td>&nbsp;</td>
+      <td>Second darshan at Khatu Shyam</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Sunday (Day - 2)</td>
+      <td>Khatu (08:00 AM)</td>
+      <td>Khatu (10:00 AM)</td>
+      <td>&nbsp;</td>
+      <td>Shopping + Breakfast</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Sunday (Day - 2)</td>
+      <td>Khatu Bus Stand</td>
+      <td>Shikhar Bus Stand</td>
+      <td>Bus</td>
+      <td>Khatu to Shikhar</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Sunday (Day - 2)</td>
+      <td>Shikhar Bus Stand</td>
+      <td>Salasar Bus Stand</td>
+      <td>Bus</td>
+      <td>Shikhar to Salasar Hanuman</td>
+      <td>150</td>
+    </tr>
+    <tr>
+      <td>Sunday (Day - 2)</td>
+      <td>Salasar</td>
+      <td>Salasar</td>
+      <td>&nbsp;</td>
+      <td>Darshan at Salasar Hanuman</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Sunday (Day - 2)</td>
+      <td>Salasar Bus Stand</td>
+      <td>Shikhar Bus Stand</td>
+      <td>Bus</td>
+      <td>Return from Salasar to Ringus</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Sunday (Day - 2)</td>
+      <td>Shikhar Bus Stand</td>
+      <td>Ringus Bus Stanf</td>
+      <td>&nbsp;</td>
+      <td>Shikhar to Ringus</td>
+      <td>150</td>
+    </tr>
+    <tr>
+      <td>Sunday (Day - 2)</td>
+      <td>Ringus</td>
+      <td>Ringus</td>
+      <td>&nbsp;</td>
+      <td>Dinner at hotel</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>Sunday (Day - 2)</td>
+      <td>Ringus (11:30 PM)</td>
+      <td>Chittorgarh (05:10 AM)</td>
+      <td>Train</td>
+      <td>RNG - CHO (<b>Train No. 20473</b>)</td>
+      <td>200</td>
+    </tr>
+    <tr>
+      <td>Monday (Day - 3)</td>
+      <td>Sawariya Seth</td>
+      <td>Sawariya Seth</td>
+      <td>&nbsp;</td>
+      <td>Stay at Dharmshala</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>Monday (Day - 3)</td>
+      <td>Sawariya Seth</td>
+      <td>Sawariya Seth</td>
+      <td>&nbsp;</td>
+      <td>Darshan at Sawariya Seth</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Monday (Day - 3)</td>
+      <td>Sawariya Seth</td>
+      <td>Sawariya Seth</td>
+      <td>&nbsp;</td>
+      <td>Lunch at Sawariya Seth</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>Monday (Day - 3)</td>
+      <td>Chittorgarh Visit</td>
+      <td>Chittorgarh Visit(04:00)</td>
+      <td>Walk/auto</td>
+      <td>Explore Chittorgarh</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Monday (Day - 3)</td>
+      <td>Chittorgarh (04:30 AM)</td>
+      <td>Ujjain (10:50 PM)</td>
+      <td>Train</td>
+      <td>CHO -&nbsp; UJN (<b>Train No. 09332</b>)</td>
+      <td>60</td>
+    </tr>
+    <tr>
+      <td>Monday (Day - 3)</td>
+      <td>Ujjain</td>
+      <td>Ujjain&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>Dinner at hotel</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>Monday (Day - 3)</td>
+      <td>Ujjain</td>
+      <td>Ujjain</td>
+      <td>&nbsp;</td>
+      <td>Stay overnight</td>
+      <td>200</td>
+    </tr>
+    <tr>
+      <td>Tuesday (Day - 4)</td>
+      <td>Ujjain</td>
+      <td>Ujjain</td>
+      <td>&nbsp;</td>
+      <td>Darshan</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Tuesday (Day - 4)</td>
+      <td>Ujjain</td>
+      <td>Indore</td>
+      <td>&nbsp;</td>
+      <td>Ujjain to Indore</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>Tuesday (Day - 4)</td>
+      <td>Indore</td>
+      <td>Burhanpur</td>
+      <td>&nbsp;</td>
+      <td>Indore to Burhanpur</td>
+      <td>400</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>Total</th>
+      <th>2880</th>
+    </tr>
+  </table>
+</div>
+</body>
+</html>
